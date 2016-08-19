@@ -10,6 +10,15 @@ namespace Demo2
     {
         static void Main(string[] args)
         {
+
+        }
+
+        private double ConvertCelsiostToFarenheit(double celsios) {
+            return celsios * 1.8 + 32;
+        }
+
+        private double ConvertFarenheitToCelsios(double Farenheit) {
+            return Farenheit / 1.8 - 32;
         }
     }
 }
