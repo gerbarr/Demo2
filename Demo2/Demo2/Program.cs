@@ -74,7 +74,7 @@ namespace Demo2
             Console.WriteLine("Ingrese el primer Valor");
             double farenheit = double.Parse(Console.ReadLine());
             double celsios = farenheit / 1.8 - 32;
-            Console.WriteLine("El resultado es: " + farenheit);
+            Console.WriteLine("El resultado es: " + celsios);
             ///return * 1.8 + 32;
         }
         /// private double ConvertFarenheitToCelsios(double Farenheit) {
