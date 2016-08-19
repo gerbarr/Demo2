@@ -32,12 +32,12 @@ namespace Demo2
 
                 if (opcion == "1")
                 {
-                    ConvertCelsiostoFarenheit();
+                    ConvertCelsiostToFarenheit();
                 }
 
                 if (opcion == "2")
                 {
-                    ConvertFarenheittoCelsios();
+                    ConvertFarenheitToCelsios();
                 }
 
 
@@ -55,7 +55,7 @@ namespace Demo2
             }
         }
 
-        private void ConvertCelsiostToFarenheit()
+        static void ConvertCelsiostToFarenheit()
         {
             Console.Clear();
             Console.WriteLine("Convertir a Farenheit");
@@ -66,7 +66,7 @@ namespace Demo2
             Console.WriteLine("El resultado es: " + farenheit);
             ///return * 1.8 + 32;
         }
-        private void ConvertFarenheitToCelsios()
+        static void ConvertFarenheitToCelsios()
         {
             Console.Clear();
             Console.WriteLine("Convertir a Farenheit");
